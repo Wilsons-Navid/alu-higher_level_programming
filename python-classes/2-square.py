@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-
+"""Creating class"""
 
 class Square:
 
-
+    """Initializing a class attribute"""
     def __init__(self, size = 0):
 
         if type(size) is not int:
