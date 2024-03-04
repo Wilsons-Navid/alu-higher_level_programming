@@ -2,6 +2,7 @@
 
 """create a class Square with a private instance size"""
 
+
 class Square:
 
     """create a class an instance attribute of the class"""
