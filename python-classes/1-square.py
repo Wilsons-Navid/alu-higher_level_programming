@@ -2,6 +2,7 @@
 
 """Class square"""
 
+
 class Square:
     
     """Private Instance"""
