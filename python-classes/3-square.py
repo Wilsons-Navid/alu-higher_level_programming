@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
+"""create a class Square with a private instance size"""
+
 class Square:
 
-    """create a class Square with a private instance size"""
+    """create a class an instance attribute of the class"""
 
     def __init__(self, size=0):
         """"handle Errors"""
