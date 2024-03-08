@@ -4,11 +4,9 @@
 
 
 class Rectangle:
-    
-    """creating class instance"""
+
+    """Creating class variable and intializing"""
     number_of_instances = 0
-    
-    """Initializing"""
 
     def __init__(self, width=0, height=0):
         self.width = width
@@ -58,5 +56,5 @@ class Rectangle:
         return "Rectangle({:d}, {:d})".format(self.width, self.height)
 
     def __del__(self):
-        Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
+        Rectangle.number_of_instances -= 1
