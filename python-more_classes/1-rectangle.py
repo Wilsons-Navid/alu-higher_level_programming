@@ -8,7 +8,7 @@ class Rectangle:
 
     """initializing width and height"""
 
-    def __init__(self, width  = 0, height = 0):
+    def i__init__(self, width=0, height=0):
         self.width = width
         self.height = height
 
