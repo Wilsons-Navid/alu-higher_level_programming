@@ -31,7 +31,7 @@ class Rectangle:
             raise TypeError("width must be an interger")
         if value < 0:
             raise ValueError("width must be >= 0")
-        self._Rectangle__width = value
+        self.__width = value
 
     @property
     def height(self):
