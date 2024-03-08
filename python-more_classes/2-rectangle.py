@@ -13,13 +13,13 @@ class Rectangle:
         self.height = height
 
     def area(self):
-        return self.height * self.width
+        return self.__height * self.__width
 
     def perimeter(self):
-        if (self.width == 0) or (self.height == 0):
+        if (self.__width == 0) or (self.__height == 0):
             return 0
         else:
-            return 2 * (self.height + self.width)
+            return 2 * (self.__height + self.__width)
 
     @property
     def width(self):
