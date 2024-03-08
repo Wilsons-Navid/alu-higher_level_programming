@@ -4,8 +4,10 @@
 
 
 class Rectangle:
-
+    
+    """creating class instance"""
     number_of_instances = 0
+    
     """Initializing"""
 
     def __init__(self, width=0, height=0):
