@@ -2,6 +2,7 @@
 
 """Creating a class that prints rectangles with #"""
 
+
 class Rectangle:
 
     """Initializing"""
@@ -39,7 +40,7 @@ class Rectangle:
 
     def perimeter(self):
         if self.__width == 0 or self.__height == 0:
-            return 0;
+            return 0
         return (2 * __width) + (2 * __height)
 
     def __str__(self):
