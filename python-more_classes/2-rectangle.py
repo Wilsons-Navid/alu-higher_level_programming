@@ -9,14 +9,17 @@ class Rectangle:
     """Creates the function that initialises the width and length"""
 
     def __init__(self, height=0, width=0):
+        self.width = width
         self.height = height
-        self.width =width
 
     def area(self):
         return self.height * self.width
 
     def perimeter(self):
-        return 2 * (height + width)
+        if (self.width == 0) or (self.height == 0):
+            return 0
+        else:
+            return 2 * (height + width)
 
     @property
     def width(self):
