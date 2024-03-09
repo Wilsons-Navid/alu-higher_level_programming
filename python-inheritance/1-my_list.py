@@ -9,7 +9,7 @@ class MyList(list):
     def __init__(self):
 
         """Init of parent class"""
-        super.__init__()
+        super().__init__()
 
     def print_sorted(self):
 
