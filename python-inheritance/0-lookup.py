@@ -4,4 +4,6 @@
 
 """Declaration fucntion"""
 def lookup(obj):
+
+    "The dir returns the list of all the properties and method of the obj"
     return dir(obj)
