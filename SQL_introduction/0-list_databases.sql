@@ -1,5 +1,2 @@
-/*
- List all
- available databases
- */
+-- lists all databases present.
 SHOW DATABASES;
