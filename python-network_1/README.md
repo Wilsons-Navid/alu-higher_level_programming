@@ -1,5 +1,6 @@
- What's my status? #0
-mandatory
+What's my s
+0. What's my status? #0
+
 Write a Python script that fetches https://alu-intranet.hbtn.io/status
 
 You must use the package urllib
